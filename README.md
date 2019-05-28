@@ -13,8 +13,8 @@ TL-WR841N / TL-WR841ND và một số dòng khác của TP-Link
 #### Yêu cầu và Cài đặt
 
 1. Cài đặt [Python 3](https://www.python.org/downloads/windows/)
-2. Tải tplink về và giải nén
-3. Double click vào file EnvPath trong thư mục tplink
+2. Tải [tplink](https://github.com/zonevn/tplink/archive/master.zip) về và giải nén
+3. Double click vào file `register.bat` trong thư mục tplink
 
 
 #### Cách dùng
