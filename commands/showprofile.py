@@ -12,5 +12,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         persists = get_pickle('db.pickle')
-        print("Host: {0}".format(persists.get('host')))
-        print("Account: {0}".format(persists.get('account')))
+        assert persists.get('account'), "You must to create a profile at first."
+
+        print("Host: {}".format(persists.get('host')))
+        print("Account: {}".format(persists.get('account')))
+        print("Password: {}".format(persists.get('password')))

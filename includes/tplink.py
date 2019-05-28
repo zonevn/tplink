@@ -1,9 +1,9 @@
 import base64
 import hashlib
 import re
-import urllib
 
 import requests
+import urllib
 
 
 class WR841Nv11:

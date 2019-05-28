@@ -63,4 +63,5 @@ $ tplink showprofile -h
 | addprofile    | gán username/password, bộ định tuyến sẽ khởi động lại sau khi thiết lập thành công |
 | showprofile   | xem thông tin đã được khai báo                               |
 | runspeedtest  | kiểm tra tốc độ internet                                     |
+| help          | liệt kê các dòng lệnh                                        |
 
